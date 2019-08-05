@@ -11,72 +11,85 @@
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="js/index.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script type="text/javascript" src="./src/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/css/index.css" />
 
 
 </head>
 
 <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="./src/img/rsi_logo.jpg" width="120" height="70" class="d-inline-block align-top" alt="">
-    </a>
+    <a href="./index.html"><img src="./src/img/rsi_logo.jpg" width="120" height="70" class="d-inline-block align-top" alt="">
+    <div class="topnav-right">
+        <a href="/" onclick="return false;" style="color: black;">Get A Quote</a>
+        <a href="/" onclick="return false;" style="color: black;">CyberCompass</a>
+        <a href="/" onclick="return false;" style="color: black;">Contact Us</a>
+    </div>
 </nav>
 
+<br>
+<br>
 
 <body>
-    <section class="container">
-    <header>
-        <H1>Cyber Compass</H1>
-        <f2>Automated Compliance Solution</f2>
-        <br>
-        <br>
+    <section class="container-fluid-nav text-center">
+        <header>
+            <H1>CyberCompass &trade;</H1>
+            <f2>Automated Compliance Solution</f2>
+            <br>
+            <br>
+            <br>
 
-            <div class="col-12">
-                <p>A random number will be selected.
-                </p>
-                <p>Each of thefour crystals below have a set number of points. Click each one to reach the selected
-                    number.
-                </p>
-                <p>Each crystal value will change with every game. Reach the correct total to win.
-                </p>
-                <br>
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Goal</h1>
-                    <h1 id="goalTot"></h1>
+            <div class="row text-center">
+                <div class="box1 col-3">
+                    <h4>Self Assessment +</h4>
+                    <p>
+                        </a>
+                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Details +/-
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
                 </div>
-                <div class="col-2">
-                    <h1>Current</h1>
+                <div class="box2 col-3">
+                    <p>Remote Assessment</p>
                     <h1 id="currentTot"></h1>
+                    <p>
+                        </a>
+                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Details +/-
+                        </button>
+                    </p>
                 </div>
-                <div class="col-2">
-                    <h2>Wins</h2>
-                    <h2 id="wins">0</h2>
+                <div class="box3 col-3">
+                    <p>Online Assessment</p>
+                    <p>
+                        </a>
+                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Details +/-
+                        </button>
+                    </p>
                 </div>
             </div>
 
             <br>
             <br>
 
-            <div class="row">
-                <button id="space" class="col-1">
-                    <h1>Space</h1>
-                </button>
-                <button id="power" class="col-1">
-                    <h1>Power</h1>
-                </button>
-                <button id="mind" class="col-1">
-                    <h1>Mind</h1>
-                </button>
-                <button id="soul" class="col-1">
-                    <h1>Soul</h1>
-                </button>
-            </div>
-        </section>
+    </section>
 
 
 </body>
+
+<footer>
+    <p>Text that appears in the footer</p>
+</footer>
 
 </html>

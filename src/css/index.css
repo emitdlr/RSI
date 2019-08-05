@@ -1,0 +1,33 @@
+navbar-light bg-light {
+    background-color: white;
+    color:black;
+}
+
+/* .topnav-right {
+    float: left;
+  } */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.row  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: absolute;
+    justify-content: space-around;
+}
+
+.box1, .box2, .box3 {
+    background-color: white;
+    color: black;
+    height: 125px;
+    width: 90%;
+    float: left; 
+    border-radius: 5px;
+    float: right;
+}
+
+
