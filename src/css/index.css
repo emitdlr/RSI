@@ -1,18 +1,14 @@
 navbar-light bg-light {
     background-color: white;
-    color:black;
+    color: black;
 }
-
-/* .topnav-right {
-    float: left;
-  } */
 
 body {
     background-color: black;
     color: white;
 }
 
-.row  {
+.row {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,14 +16,29 @@ body {
     justify-content: space-around;
 }
 
-.box1, .box2, .box3 {
+.box1,
+.box2,
+.box3 {
     background-color: white;
     color: black;
-    height: 125px;
-    width: 90%;
-    float: left; 
+    height: 150px;
+    width: 5px;
+    float: left;
     border-radius: 5px;
     float: right;
+    /* padding: 10px 80px; */
+}
+
+/* li{
+    display: table-row;
+} */
+
+hr {
+    color: white;
+    background-color: #666;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footer {
@@ -35,5 +46,18 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
+    height: 100px;
+}
+
+.btn-xl {
+    color: blue;
+    height: 40px;
+    padding: 5px 90px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.btn {
+    color: blue;
+}

@@ -6,24 +6,33 @@
     <title>RSI - CyberCompass</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- linking to Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
+
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="./src/js/index.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./src/css/index.css" />
-
-
 </head>
 
 <nav class="navbar navbar-light bg-light">
-    <a href="./index.html"><img src="./src/img/rsi_logo.jpg" width="120" height="70" class="d-inline-block align-top" alt="">
-    <div class="topnav-right">
-        <a href="/" onclick="return false;" style="color: black;">Get A Quote</a>
-        <a href="/" onclick="return false;" style="color: black;">CyberCompass</a>
-        <a href="/" onclick="return false;" style="color: black;">Contact Us</a>
-    </div>
+    <a href="./index.html"><img src="./src/img/rsi_logo.jpg" width="120" height="70" class="d-inline-block align-top"
+            alt="">
+        <div class="topnav-right">
+            <a href="/" onclick="return false;" style="color: black;">Get A Quote</a>
+            <a href="/" onclick="return false;" style="color: black;">CyberCompass</a>
+            <a href="/" onclick="return false;" style="color: black;">Contact Us</a>
+        </div>
 </nav>
 
 <br>
@@ -42,41 +51,39 @@
             <div class="row text-center">
                 <div class="box1 col-3">
                     <h4>Self Assessment +</h4>
-                    <p>
-                        </a>
-                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse"
-                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Details +/-
-                        </button>
-                    </p>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                            ea proident.
-                        </div>
+                    <h2>$600/mo</h2>
+                    <button type="button" name="button_1" class="btn btn-default btn-xl" data-toggle="collapse"
+                        data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" span class="border border-primary">
+                        Details +/-
+                    </button>
+                    <div class="collapse" id="collapseExample1" div class="panel panel-primary" data-toggle="collapse">
+                        <li>This is ONE</li>
+                        <li>This is also ONE</li>
                     </div>
                 </div>
+
                 <div class="box2 col-3">
-                    <p>Remote Assessment</p>
-                    <h1 id="currentTot"></h1>
-                    <p>
-                        </a>
-                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse"
-                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Details +/-
-                        </button>
-                    </p>
+                    <h4>Remote Assessment</h4>
+                    <h2>$900/mo</h2>
+                    <button type="button" name="button_2" class="btn btn-default btn-xl" data-toggle="collapse"
+                        data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                        Details +/-
+                    </button>
+                    <div class="collapse" id="collapseExample2" div class="card card-body" data-toggle="collapse">
+                        This is TWO
+                    </div>
                 </div>
+
                 <div class="box3 col-3">
-                    <p>Online Assessment</p>
-                    <p>
-                        </a>
-                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse"
-                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Details +/-
-                        </button>
-                    </p>
+                    <h4>Online Assessment</h4>
+                    <h2>$1,000/mo</h2>
+                    <button type="button" name="button_3" class="btn btn-default btn-xl" data-toggle="collapse"
+                        data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                        Details +/-
+                    </button>
+                    <div class="collapse" id="collapseExample3" div class="card card-body" data-toggle="collapse">
+                        This is THREE
+                    </div>
                 </div>
             </div>
 
@@ -85,22 +92,36 @@
 
     </section>
 
-
 </body>
 
+<br>
+<br>
+
+
 <footer id="footer">
-        <div class="row text-center">
-    <ul style="list-style-type:none;">
-    <li><h3>Resources for Clients</h3></li>
-    <li> <a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass Sucess Story - NY DFS</a></li>
-    <li><a href="/" onclick="return false;" style="color:white; text-decoration:underline;">RSI's vCISO Services</a></li>
-    <li><a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass Case Study (OCR Fine Dismissed)</a></li>
- </ul>
- <ul style="list-style-type:none;">
- <li><h3>Resources for Partners</h3></li>
- <li> <a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass BattleCard</a></li>
- <li> <a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass Sales Sheet</a></li>
- </div>
+    <div class="row text-center">
+        <hr>
+        <ul style="list-style-type:none;">
+            <li>
+                <h3>Resources for Clients</h3>
+            </li>
+            <li> <a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass Sucess
+                    Story - NY DFS</a></li>
+            <li><a href="/" onclick="return false;" style="color:white; text-decoration:underline;">RSI's vCISO
+                    Services</a></li>
+            <li><a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass Case
+                    Study (OCR Fine Dismissed)</a></li>
+        </ul>
+        <ul style="list-style-type:none;">
+            <li>
+                <h3>Resources for Partners</h3>
+            </li>
+            <li> <a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass
+                    BattleCard</a></li>
+            <li> <a href="/" onclick="return false;" style="color:white; text-decoration:underline;">CyberCompass Sales
+                    Sheet</a></li>
+    </div>
 </footer>
+
 
 </html>
