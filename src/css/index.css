@@ -16,9 +16,9 @@ body {
     justify-content: space-around;
 }
 
-.box1,
-.box2,
-.box3 {
+.panel1,
+.panel2,
+.panel3 {
     background-color: white;
     color: black;
     height: 150px;
@@ -29,10 +29,10 @@ body {
     /* padding: 10px 80px; */
 }
 
-/* li{
-    display: table-row;
-} */
-
+li {
+    list-style-position: inside;
+    text-indent: -1em;
+    }
 hr {
     color: white;
     background-color: #666;
